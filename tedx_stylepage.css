@@ -1,0 +1,184 @@
+
+
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navigationbar{
+
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.97);
+    color:red;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    
+}
+
+.nav-logo{
+
+    height: 80px;
+    width:200px;
+    background-image: url("tedx_logo.png");
+    background-color: black;
+    background-size: cover;
+    font-weight: 900;
+    
+    align-items: start;
+}
+
+.nav-pages{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 600;
+}
+
+.nav-pages div{
+    margin-left: 15px;
+}
+
+.np{
+      height: 15px;
+      width: 70px;
+      padding : 25px;
+      color:red;
+      display:flex;
+      align-items: center;
+}
+
+
+.border{
+    border:2px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+    background-color:rgba(72, 70, 70, 0.678);
+    border-radius: 8px;
+}
+
+.hp-bagroundimage{
+    height:1000px;
+    background-image: url("tedx_hero_image.jpg"),url("tedx_hero_image.jpg");
+    background-color: black;
+    background-size: cover;
+    opacity: 0.9;
+    
+}
+
+#grad1{
+    height: 900px;
+    background-image: linear-gradient(to top, rgba(4, 0, 0, 0.95),rgba(10, 1, 1, 0.973));
+    
+}
+
+.def-tedxiith{
+    height: 0px;
+    color:beige;
+    background-color: black;;
+    display:inline-block;
+    text-align: center;
+    font-family:cursive;
+    font-weight: 700;
+    font-size: 50px;
+    align-items: center;
+    text-shadow: 10px 10px 20px grey;
+    margin-top: 140px;
+}
+
+
+
+
+
+h1 {
+    width: 350px;
+    animation-name: text;
+    animation-duration: 4s;
+    animation-iteration-count:5;
+    background-color:#2B2A4C;
+    color:bisque;
+    font-size: 60px;
+    font-weight: 800;
+}
+h2 {
+    width: 1200px;
+    animation-name: text;
+    animation-duration: 5s;
+    animation-iteration-count:5;
+    margin-top:15px;
+    background-color: black;
+    color:red;
+    line-height: 40px;
+    word-spacing:3px ;
+}
+
+#one {
+    animation-timing-function: ease;
+}
+
+@keyframes text {
+    from {
+        margin-left: 60%;
+    }
+
+    to {
+        margin-left: 0%;
+    }
+}
+
+.aboutustext{
+    margin-top: 400px;
+}
+
+.btn {
+    will-change: transform;
+    transition: transform 450ms;
+  }
+  
+.btn:hover {
+    transition: transform 125ms;
+    transform: translateY(-30px);
+  }
+
+#two {
+    animation-timing-function: ease;
+}
+
+
+.footer{
+    height: 400px;
+    background-color: #090818;
+    color:azure;
+    display: flex;
+}
+
+
+.boder{
+    border:2px solid transparent;
+}
+
+.boder:hover{
+    border: 1.5px solid white;
+    background-color:rgba(72, 70, 70, 0.678);
+    border-radius: 8px;
+    color:orange;
+}
+
+.osmh div{
+    text-align: left;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.onetwo{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70px;
+    font-style: oblique;
+    text-decoration: underline;
+    color:rgb(234, 239, 240);
+}
